@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(back.jpg);
+    
+}
+.contianer {
+    margin: auto;
+    width: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 25%;
+    padding: 30px ;
+    padding-left: 0px;
+    border-radius: 20px;
+   
+}
+.contianer h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, .5);
+
+}
+.contianer .input {
+    margin: 10px 25px 10px 40px;
+    width: 90%;
+    height: 50px;
+    color: #fff;
+    
+}
+
+.contianer .input input {
+    color: #fff;
+    width: 100%;    
+    border-radius: 20px;
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, .2);
+    transition: all 1s ease;
+    
+}
+.contianer input::placeholder {
+    color: #fff;
+}
+.contianer .input input:hover {
+    transform: scale(1.1);
+    border: 2px solid rgba(255, 255, 255, .5);
+    box-shadow: 0 0 10px #ffffff80;
+}
+
+.contianer .input i {
+    position: relative;
+    top: -30px;
+    left: 90%;
+}
+.contianer .input i:focus {
+    color: #e5e5e5;
+}
+.check {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 20px;
+    accent-color: transparent;
+    width: 100%;
+    color: #fff;
+}
+.check a {
+    margin-left: 10px;
+    text-decoration: none;
+    transition: all 1s ease;
+    color: #fff;
+    
+}
+.check a:hover {
+    text-decoration: underline;
+    color: #e5e5e5;
+}
+.btn {
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px 11em;
+    align-items: center;
+    position: relative;
+    
+    font-weight: 600;
+    
+    margin: 20px 20px 20px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ffffff80;
+    
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+.contianer .btn:hover {
+    background-color: #e5e5e5;
+    box-shadow: 0 0 10px #e5e5e580;
+
+
+    
+}
+
+
+
+.register {
+    
+    margin: 25px;
+    margin-left: 40px;
+    align-items: center;
+
+}
+.register p {
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.register a {
+    margin: 20px 0px 15px;
+    color: #e5e5e5;
+}
